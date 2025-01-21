@@ -1,0 +1,48 @@
+#poop {
+    background-color: darkorchid;
+    border: 4px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: medium;
+    display: inline-block;
+}
+body {
+    background: linear-gradient(to right, rgb(130, 201, 116), #53d198);
+    font-family: Arial, sans-serif;
+}
+h1, h2 {
+    color: rgb(0, 0, 0);
+}
+ul {
+    background-color: aqua;
+    border: 4px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: medium;
+    display: inline-block;
+}
+.cheese {
+    background-color: lightyellow;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: large;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.cheese p {
+    color: darkblue;
+    font-weight: bold;
+    line-height: 1.6;
+}
+#yooo {
+    background-color: rgb(234, 154, 17);
+    color: darkslateblue;
+    font-size: large;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 3px solid rgb(2, 2, 78);
+    display: inline-block;
+}
