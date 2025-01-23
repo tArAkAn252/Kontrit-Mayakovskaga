@@ -2,7 +2,8 @@ body {
     background: linear-gradient(to right, rgb(130, 201, 116), #53d198);
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 10px; /* Виправлення пробілу */
+    padding: 10px;
+    line-height: 1.5;
 }
 
 h1, h2 {
@@ -13,12 +14,9 @@ h1, h2 {
 
 #poop, ul, .cheese, #yooo {
     margin: 10px auto;
-    max-width: 800px; /* Встановлюємо максимальну ширину */
-    text-align: justify; /* Для читабельності */
-    box-sizing: border-box; /* Коректне масштабування padding */
-}
-
-#poop, ul, .cheese, #yooo {
+    max-width: 800px;
+    width: 90%;
+    text-align: justify;
     background-color: lightyellow;
     border: 2px solid black;
     border-radius: 10px;
@@ -39,13 +37,18 @@ img {
     margin: 20px auto;
 }
 
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Медіазапити для адаптивності */
 @media (max-width: 768px) {
     #poop, ul, .cheese, #yooo {
-        width: 90%; /* Адаптивність для мобільних */
         font-size: smaller;
+        width: 95%;
     }
 
     h1, h2 {
-        font-size: larger; /* Робимо заголовки більш читабельними */
+        font-size: larger;
     }
 }
